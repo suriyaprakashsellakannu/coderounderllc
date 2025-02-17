@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coderounder LLC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Coderounder LLC</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#"  id="contactBtn">Contact</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Master Coding Like a Prodigy</h1>
+			<div class="coding-promo">
+				<p>Join thousands mastering coding with expert-led courses unlock your potential and code your future!</p>
+			</div>
+            <a href="#courses" class="btn">Explore Courses</a>
+        </div>
+    </section>
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <h2>Our Courses</h2>
+        <div class="course-list">
+            <div class="course-card">
+                <img src="python_cource.png" alt="Python Course">
+                <h3>Beginner Python</h3>
+                <p>Learn the basics of Python programming and build your first projects.</p>
+                <span class="price">$99</span> 
+            </div>
+            <div class="course-card">
+                <img src="web_app_dev.png" alt="Web Development Course">
+                <h3>Web Development</h3>
+                <p>Master HTML, CSS, JavaScript</p>
+                <span class="price">$149</span> 
+            </div>
+			<div class="course-card">
+				<img src="java_course.png" alt="Data Science Course">
+				<h3>Java</h3>
+				<p>Learners will develop strong proficiency in the Java programming language, with a clear understanding of Java program structure. </p>
+				<span class="price">$199</span> 
+			</div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Coderounder LLC is dedicated to providing high-quality coding education to students of all ages. Our mission is to empower learners with the skills they need to succeed in the digital world.</p>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Coderounder LLC. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

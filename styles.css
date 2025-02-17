@@ -21,8 +21,17 @@ header {
 /* Logo Styling */
 .logo {
     font-size: 1.5em;
-    font-weight: bold;
-    float: left; /* Aligns the logo to the left */
+    font-weight: bold; 
+}
+.logo {
+  display: flex;       /* Use flexbox for alignment */
+  align-items: center; /* Vertically center items */
+  gap: 10px;           /* Space between image and text */
+}
+
+.logo img {
+  height: 40px;        /* Adjust based on your logo's aspect ratio */
+  width: auto;         /* Maintain aspect ratio */
 }
 
 /* Navigation Links Styling */

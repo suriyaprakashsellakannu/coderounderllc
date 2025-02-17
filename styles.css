@@ -18,45 +18,47 @@ header {
     z-index: 1000; /* Ensures the header stays above other content */
 }
 
+/* Header Styling */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Logo Styling */
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     font-size: 1.5em;
-    font-weight: bold; 
-}
-.logo {
-  display: flex;       /* Use flexbox for alignment */
-  align-items: center; /* Vertically center items */
-  gap: 10px;           /* Space between image and text */
+    font-weight: bold;
 }
 
 .logo img {
-  height: 40px;        /* Adjust based on your logo's aspect ratio */
-  width: auto;         /* Maintain aspect ratio */
+    height: 40px; /* Adjust based on your logo size */
+    width: auto;
 }
 
 /* Navigation Links Styling */
 .nav-links {
-    list-style: none; /* Removes bullet points */
+    display: flex;
+    list-style: none;
     margin: 0;
     padding: 0;
-    float: right; /* Aligns the links to the right */
-}
-
-.nav-links li {
-    display: inline; /* Displays list items inline */
-    margin-left: 20px; /* Adds spacing between links */
+    gap: 25px;
 }
 
 .nav-links a {
-    color: white; /* White link color */
-    text-decoration: none; /* Removes underline from links */
+    color: white;
+    text-decoration: none;
     font-size: 1em;
+    transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    text-decoration: underline; /* Underlines links on hover */
+    color: #ff6f61;
+    text-decoration: none;
 }
-
 .coding-promo {
   padding: 20px;              /* Add space around the text */
   border-radius: 8px;         /* Round the corners */
